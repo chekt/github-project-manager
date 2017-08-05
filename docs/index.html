@@ -1,0 +1,8 @@
+<!DOCTYPE html><html><head><script>// See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();</script><meta charset=utf-8><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name=viewport><title>github-project-manager</title><link href=/static/css/app.1583df2984604a02677949e509f241e1.css rel=stylesheet></head><body style=margin:0;padding:0><div id=app></div><script type=text/javascript src=/static/js/manifest.1ccec21ab2c282e1ed0c.js></script><script type=text/javascript src=/static/js/vendor.02f92de49de1d0d94ef6.js></script><script type=text/javascript src=/static/js/app.ec69025d78e974541145.js></script></body></html>
