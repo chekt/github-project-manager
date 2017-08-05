@@ -5,9 +5,12 @@ npm run build
 
 mv dist docs
 
-# mv docs/assets/404.html docs/404.html
+cp src/assets/404.html docs/404.html
 
-# rmdir docs/assets
+sed -i -e 's/\<\/head\>/\<base href\=\"https:\/\/chekt.github.io\/github-project-manager\/\"\>\<\/head\>/g'  dist/index.html
+sed -i -e 's/src\=\//src\=/g'  dist/index.html
+
+rm dist/index.html-e
 
 git add .
 
