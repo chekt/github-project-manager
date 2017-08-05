@@ -2,6 +2,10 @@
 
 > Simple project manager for Github issues
 
+## Sample Page
+
+> [https://chekt.github.io/github-project-manager](https://chekt.github.io/github-project-manager)
+
 ## Build Setup
 
 ``` bash
