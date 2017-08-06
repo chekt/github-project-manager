@@ -9,7 +9,7 @@ mv dist docs
 
 cp src/assets/404.html docs/404.html
 
-sed -i -e 's/\<\/head\>/\<base href\=\"https:\/\/chekt.github.io\/github-project-manager\/\"\>\<\/head\>/g'  docs/index.html
+sed -i -e 's/\<head\>/\<head\>\<base href\=\"https:\/\/chekt.github.io\/github-project-manager\/\"\>/g'  docs/index.html
 sed -i -e 's/src\=\//src\=/g'  docs/index.html
 sed -i -e 's/href\=\//href\=/g'  docs/index.html
 
