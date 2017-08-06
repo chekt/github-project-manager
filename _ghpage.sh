@@ -3,7 +3,7 @@
 
 npm run build
 
-mv -rf docs
+rm -rf docs
 
 mv dist docs
 
