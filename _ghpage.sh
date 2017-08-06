@@ -3,6 +3,8 @@
 
 npm run build
 
+mv -rf docs
+
 mv dist docs
 
 cp src/assets/404.html docs/404.html
